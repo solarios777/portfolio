@@ -1,1 +1,1 @@
-# ethan-portfolio-starter
+# solomon portfolio
