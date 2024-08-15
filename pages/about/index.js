@@ -89,7 +89,31 @@ const aboutData = [
 ];
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+      <div>about</div>
+    </div>
+  );
 };
 
 export default About;
