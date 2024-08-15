@@ -16,7 +16,7 @@ const ParticlesContainer = () => {
   // Return the Particles component with the necessary options
   return (
     <Particles
-      className="w-full h-full absolute translate-z-0"
+      className="w-full h-full absolute translate-z-10"
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
