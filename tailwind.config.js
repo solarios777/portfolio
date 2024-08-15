@@ -29,11 +29,11 @@ module.exports = {
         accent: "#F13024",
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
+        explosion: 'url("/pexels-danny.jpg")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
-        "custom-bg": "linear-gradient(to right, #142DBC ,#227D9B)",
+        "custom-bg": "linear-gradient(to right, #001 ,#001)",
       },
       animation: {
         "spin-slow": "spin 6s linear infinite",
