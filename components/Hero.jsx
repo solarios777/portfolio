@@ -14,7 +14,7 @@ import { fadeIn } from "../variants";
 const Hero = () => {
   return (
     <>
-      <ParticlesContainer />
+      {/* <ParticlesContainer /> */}
       <div className="flex flex-col lg:flex-row">
         <div className=" text-center flex flex-col xl:pt-2 xl:text-left container mx-auto">
           {/* title */}
@@ -37,7 +37,7 @@ const Hero = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-base sm:text-lg xl:text-xl"
           >
-            Hello, I'm
+            Hello, I&apos;m
             <span className="text-accent font-bold"> SOLOMON SALA </span>,<br /> a
             highly skilled full-stack junior developer from
             <span className="text-accent"> Addis Abeba, Ethiopia</span>. <br />
@@ -62,7 +62,7 @@ const Hero = () => {
           </motion.div>
         </div>
         <div className=" z-40 mt-8  lg:mt-80 xl:mt-60">
-          <Image src={"/tiltedlap.png"} width={1200} height={1200} />
+          <Image src={"/tiltedlap.png"} width={1200} height={1200} alt="" />
         </div>
       </div>
     </>

@@ -133,7 +133,7 @@ const About = () => {
             className="max-w-[400px] mx-auto mb-6 lg:hidden text-base md:text-lg xl:text-lg"
           >
             A driven junior full-stack dev, dedicated to impactful web
-            solutions. Fueled by a passion for the evolving web, I'm a
+            solutions. Fueled by a passion for the evolving web, I&apos;m a
             fast-learning, solutions-oriented team player, ready to drive
             innovation.
           </motion.p>
@@ -179,7 +179,7 @@ const About = () => {
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className="text-2xl text-white">{icon}</div>;
+                      return <div className="text-2xl text-white" key={itemIndex}>{icon}</div>;
                     })}
                   </div>
                 </div>
@@ -196,7 +196,7 @@ const About = () => {
             }}
           >
             <h2 className="my-8 font-bold text-white text-2xl lg:text-4xl">
-              Let's
+              Let&apos;s
               <span className="text-accent"> build </span>
               your website together!
             </h2>

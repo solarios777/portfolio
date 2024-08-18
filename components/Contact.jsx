@@ -17,7 +17,7 @@ const ContactPage = () => {
           <span className="text-accent"> online </span>impact?
         </h1>
         <p className="text-gray-400 mb-8 max-w-[700px] mx-auto">
-          I'm all ears! Please don't hesitate to get in touch with me. I'm here
+          I&apos;m all ears! Please don&apos;t hesitate to get in touch with me. I&apos;m here
           to answer any of your questions, address your comments, or discuss any
           inquiries you may have.
         </p>
@@ -26,7 +26,7 @@ const ContactPage = () => {
             className="px-4 py-2 flex items-center  gap-x-8 rounded-md bg-gray-800 text-white hover:bg-gray-900 font-medium transition-colors mx-auto border-2 border-[#9088af] border-opacity-90 "
             onClick={handleEmailOpen}
           >
-            let's get in touch
+            let&apos;s get in touch
             <FaPaperPlane />
           </button>
 

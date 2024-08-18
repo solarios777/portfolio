@@ -30,7 +30,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-base md:text-lg xl:text-lg"
             >
-              When meeting the client, we collaborated to define the website's
+              When meeting the client, we collaborated to define the website&apos;s
               objectives, target audience, and critical capabilities, then I
               dove into coding, updating progress from initial concepts to
               polished implementation, before transforming approved designs into
