@@ -10,13 +10,13 @@ const ParticlesContainer = () => {
 
   // Load the particles
   const particlesLoaded = useCallback(async () => {
-    console.log("Particles successfully loaded");
+    // console.log("Particles successfully loaded");
   }, []);
 
   // Return the Particles component with the necessary options
   return (
     <Particles
-      className="w-full h-full absolute translate-z-10"
+      className="max-w-[1400px] h-screen absolute translate-z-10"
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -55,13 +55,13 @@ const ParticlesContainer = () => {
         },
         particles: {
           color: {
-            value: "#e68e2e",
+            value: "#fff",
           },
           links: {
-            color: "#f5d393",
+            color: "#fff",
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.2,
             width: 1,
           },
           collisions: {
@@ -86,7 +86,7 @@ const ParticlesContainer = () => {
             value:80
           },
           opacity: {
-            value:0.5
+            value:0.2
           },
           shape: {
             type:"circle"

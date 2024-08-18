@@ -1,4 +1,4 @@
-const { color } = require('framer-motion');
+const { color } = require("framer-motion");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -33,7 +33,7 @@ module.exports = {
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
-        "custom-bg": "linear-gradient(to right, #001 ,#001)",
+        "custom-bg": "linear-gradient(to right, #010409 ,#000307)",
       },
       animation: {
         "spin-slow": "spin 6s linear infinite",
