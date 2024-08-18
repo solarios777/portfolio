@@ -14,7 +14,7 @@ import { fadeIn } from "../variants";
 const Hero = () => {
   return (
     <>
-      {/* <ParticlesContainer /> */}
+      <ParticlesContainer />
       <div className="flex flex-col lg:flex-row">
         <div className=" text-center flex flex-col xl:pt-2 xl:text-left container mx-auto">
           {/* title */}

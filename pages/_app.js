@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Solomon Sala's Portfolio</title>
+        <title>Solomon Sala&apos;s Portfolio</title>
         <meta
           name="description"
           content="Explore the diverse portfolio of Solomon Sala, a talented full stack developer with expertise in a wide range of modern web technologies. Browse his latest projects and learn more about his skills and experience."
