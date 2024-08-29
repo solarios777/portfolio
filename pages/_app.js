@@ -46,6 +46,8 @@ function MyApp({ Component, pageProps }) {
           content="https://s3-alpha.figma.com/hub/file/2474165922/a64a284d-5cdd-49f3-a990-b4731a6953b9-cover.png"
         />
         <meta property="og:image:alt" content="Apple" />
+        <meta property="og:image" content="/SolomonSala.jpg" />
+        <meta property="og:image:alt" content="Certificate" />
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:image" content="/evantu.jpeg" />
@@ -65,6 +67,8 @@ function MyApp({ Component, pageProps }) {
           content="https://s3-alpha.figma.com/hub/file/2474165922/a64a284d-5cdd-49f3-a990-b4731a6953b9-cover.png"
         />
         <meta name="twitter:image:alt" content="Apple" />
+        <meta name="twitter:image" content="/SolomonSala.jpg" />
+        <meta name="twitter:image:alt" content="Certificate" />
 
         {/* Favicon */}
         <link rel="icon" type="image/x-icon" href="../public/amazon.png" />
@@ -87,7 +91,7 @@ function MyApp({ Component, pageProps }) {
         <AnimatePresence mode="wait">
           <motion.div key={router.route} className="h-full">
             {/* <Transition/> */}
-            <Component {...pageProps} />;
+            <Component {...pageProps} />
           </motion.div>
         </AnimatePresence>
       </Layout>

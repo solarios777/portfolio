@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Work from "../components/Work";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero"
+import Certificate from "../components/Certificate"
 
 
 
@@ -37,11 +38,19 @@ const Home = () => {
 
       {/* work Section */}
       <section id="work" className=" flex flex-col justify-center items-center">
-        <div className="container mx-auto my-40">
+        <div className="container mx-auto lg:mb-40 mt-40">
           <Work />
         </div>
       </section>
-
+      {/* certificate Section */}
+      <section
+        id="certificate"
+        className=" flex flex-col justify-center items-center"
+      >
+        <div className="container mx-auto my-40">
+          <Certificate />
+        </div>
+      </section>
       {/* Contact Section */}
       <section
         id="contact"
@@ -58,9 +67,8 @@ const Home = () => {
         className="flex flex-col justify-center items-center"
       >
         <div className="container mx-auto z-40 mb-16">
-        {/* footer */}
-          <Footer/>
-          
+          {/* footer */}
+          <Footer />
         </div>
       </section>
     </>

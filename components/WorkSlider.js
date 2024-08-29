@@ -117,7 +117,7 @@ const workSlides = {
         },
         {
           title: "Evangadi-Forum",
-          path: "/evangadi.png",
+          path: "/evantu.jpeg",
           liveUrl: "https://evangadi-discussion-forum-g11.netlify.app/",
           githubUrl: "https://github.com/solarios777/Evangadiforumbackend",
           technologies: [

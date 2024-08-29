@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       <Header />
       <main className="min-h-screen">{children}</main>
     </div>
-  );
+  )
 };
 
 export default Layout;
