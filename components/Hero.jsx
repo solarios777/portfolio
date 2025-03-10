@@ -61,8 +61,8 @@ const Hero = () => {
             <ProjectsBtn />
           </motion.div>
         </div>
-        <div className="z-40 mt-8 hidden lg:block lg:mt-80 xl:mt-60">
-          <Image src={"/tiltedlap.png"} width={1200} height={1200} alt="" />
+        <div className="z-40 mt-4 hidden lg:block lg:mt-80 xl:mt-40">
+          <Image src={"/Removal-779.png"} width={1200} height={1200} alt="" />
         </div>
       </div>
     </>

@@ -22,6 +22,10 @@ import {
   SiTailwindcss,
   SiMysql,
   SiRedux,
+  SiPostgresql,
+  SiTypescript,
+  SiPrisma,
+  SiNextdotjs
 } from "react-icons/si";
 
 // next image
@@ -34,6 +38,20 @@ const workSlides = {
   slides: [
     {
       images: [
+         {
+          title: "School management system",
+          path: "/sms.png",
+          liveUrl: "https://youtu.be/cRzugHv8glc",
+          githubUrl: "https://github.com/solarios777/SMS",
+          technologies: [
+            { name: "Next", color: "#61DAFB" },
+            { name: "Typescript", color: "#00C7B7" },
+            { name: "Postgresql", color: "#00758F" },
+            { name: "Tailwindcss", color: "#38B2AC" },
+            { name: "Prisma", color: "#00C7B7" },
+
+          ],
+        },
         {
           title: "Evangadi-Forum",
           path: "/evantu.jpeg",
@@ -72,20 +90,7 @@ const workSlides = {
             { name: "GitHub Pages", color: "#00758F" },
             { name: "Redux", color: "#764ABC" },
           ],
-        },
-        {
-          title: "Apple",
-          path: "/apple.png",
-          liveUrl:
-            "https://applepageclone-git-main-solarios777s-projects.vercel.app/",
-          githubUrl: "https://github.com/solarios777/applepageclone1",
-          technologies: [
-            { name: "HTML", color: "#E34F26" },
-            { name: "CSS", color: "#1572B6" },
-            { name: "JavaScript", color: "#F7DF1E" },
-            { name: "Vercel", color: "#000000" },
-          ],
-        },
+        }
       ],
     },
     {
@@ -225,6 +230,18 @@ const WorkSlider = () => {
                             )}
                             {tech.name === "Mysql" && (
                               <SiMysql size={16} color={tech.color} />
+                            )}
+                            {tech.name === "Postgresql" && (
+                              <SiPostgresql size={16} color={tech.color} />
+                            )}
+                            {tech.name === "Prisma" && (
+                              <SiPrisma size={16} color={tech.color} />
+                            )}
+                            {tech.name === "Typescript" && (
+                              <SiTypescript size={16} color={tech.color} />
+                            )}
+                            {tech.name === "Next" && (
+                              <SiNextdotjs size={16} color={tech.color} />
                             )}
                             {tech.name === "Redux" && (
                               <SiRedux size={16} color={tech.color} />

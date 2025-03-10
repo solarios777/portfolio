@@ -1,8 +1,5 @@
 import WorkSlider from "../components/CertificateSlider";
-// framer motion
 import { motion } from "framer-motion";
-
-// variants
 import { fadeIn } from "../variants";
 
 const Work = () => {
@@ -21,7 +18,6 @@ const Work = () => {
             >
               Certificate <span className="text-accent">.</span>
             </motion.h2>
-            
           </div>
           {/* slider */}
           <motion.div
