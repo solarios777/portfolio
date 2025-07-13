@@ -90,11 +90,11 @@ const About = () => {
   const [index, setIndex] = useState(0);
   const [isCopied, setIsCopied] = useState(false);
 
-  const handleEmailCopy = () => {
-    navigator.clipboard.writeText("tsegasolomon635@gmail.com");
-    setIsCopied(true);
-    setTimeout(() => setIsCopied(false), 10000);
-  };
+  // const handleEmailCopy = () => {
+  //   navigator.clipboard.writeText("tsegasolomon635@gmail.com");
+  //   setIsCopied(true);
+  //   setTimeout(() => setIsCopied(false), 10000);
+  // };
 
   return (
     <div className="h-full  md:mt-0 py-32 text-center">
@@ -206,7 +206,7 @@ const About = () => {
                   ? "text-white hover:bg-gray-700"
                   : "text-white hover:bg-gray-600"
               }`}
-              onClick={handleEmailCopy}
+              // onClick={handleEmailCopy}
             >
               <span className="mr-3">
                 <FaCopy />
