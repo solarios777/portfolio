@@ -9,7 +9,7 @@ const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-lg ">
       <Link
-        href={"https://www.linkedin.com/in/solomon-sala-b86577323/"}
+        href={"/"}
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-accent transition-all duration-300 lg:text-2xl "
@@ -17,7 +17,7 @@ const Socials = () => {
         <RiLinkedinFill className="text-[#0A66C2]" />
       </Link>
       <Link
-        href={"https://github.com/solarios777"}
+        href={"/"}
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-accent transition-all duration-300 lg:text-2xl"
@@ -26,7 +26,7 @@ const Socials = () => {
       </Link>
 
       <Link
-        href={"https://wa.me/+251938838999"}
+        href={"/"}
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-accent transition-all duration-300 lg:text-2xl"
