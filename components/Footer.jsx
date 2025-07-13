@@ -19,7 +19,7 @@ const Footer = () => {
         {/* gggee */}
         <div className="flex items-center gap-x-5 text-lg ">
           <Link
-            href={"https://www.linkedin.com/in/solomon-sala-b86577323/"}
+            href={"/"}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition-all duration-300  "
@@ -27,7 +27,7 @@ const Footer = () => {
             <RiLinkedinFill />
           </Link>
           <Link
-            href={"https://github.com/solarios777"}
+            href={"/"}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition-all duration-300 "
@@ -36,7 +36,7 @@ const Footer = () => {
           </Link>
 
           <Link
-            href={"https://wa.me/+251938838999"}
+            href={"/"}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition-all duration-300 "

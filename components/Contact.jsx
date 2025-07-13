@@ -1,13 +1,7 @@
 import { FaPhone, FaPaperPlane } from "react-icons/fa";
 
 const ContactPage = () => {
-  const handleEmailOpen = () => {
-    window.location.href = "mailto:tsegasolomon635@gmail.com";
-  };
-
-  const handlePhoneCall = () => {
-    window.location.href = "tel:+251938838999";
-  };
+ 
 
   return (
     <div className="flex justify-center items-center text-center bg-[rgba(28,20,54,0.15)] text-white pt-20 container mx-auto px-4 sm:px-6 lg:px-8">
