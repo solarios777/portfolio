@@ -90,7 +90,7 @@ const Header = () => {
           </Link>
           <div className="flex items-center gap-x-5 text-lg fixed top-4 lg:top-6 right-4 lg:right-24 z-50 px-4 py-2 rounded-md z-40">
             <Link
-              href={"https://www.linkedin.com/in/solomon-sala-b86577323/"}
+              // href={"https://www.linkedin.com/in/solomon-sala-b86577323/"}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-all duration-300 lg:text-2xl"
@@ -98,7 +98,7 @@ const Header = () => {
               <RiLinkedinFill className="text-[#0A66C2]" />
             </Link>
             <Link
-              href={"https://github.com/solarios777"}
+              // href={"https://github.com/solarios777"}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-all duration-300 lg:text-2xl"
@@ -107,7 +107,7 @@ const Header = () => {
             </Link>
 
             <Link
-              href={"https://wa.me/+251938838999"}
+              // href={"https://wa.me/+251938838999"}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-all duration-300 lg:text-2xl"
