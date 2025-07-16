@@ -246,9 +246,7 @@ const WorkSlider = () => {
                             {tech.name === "Redux" && (
                               <SiRedux size={16} color={tech.color} />
                             )}
-                            {tech.name === "NextAuth" && (
-                              <SiNextauth size={16} color={tech.color} />
-                            )}
+                            
                             {tech.name === "Appwrite" && (
                               <SiAppwrite size={16} color={tech.color} />
                             )}
