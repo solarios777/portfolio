@@ -25,7 +25,8 @@ import {
   SiPostgresql,
   SiTypescript,
   SiPrisma,
-  SiNextdotjs
+  SiNextdotjs,
+  SiAppwrite
 } from "react-icons/si";
 
 // next image
@@ -53,17 +54,15 @@ const workSlides = {
           ],
         },
         {
-          title: "Evangadi-Forum",
-          path: "/evantu.jpeg",
-          liveUrl: "https://evangadi-discussion-forum-g11.netlify.app/",
-          githubUrl: "https://github.com/solarios777/Evangadiforumbackend",
+          title: "Room Booking App",
+          path: "/roombooking.png",
+          liveUrl: "https://room-booking-vb2f.vercel.app/",
+          githubUrl: "https://github.com/solarios777/room-booking",
           technologies: [
-            { name: "React", color: "#61DAFB" },
-            { name: "Node.js", color: "#339933" },
-            { name: "Express", color: "#83CD29" },
-            { name: "Mysql", color: "#00758F" },
+            { name: "Next", color: "#61DAFB" },
+            { name: "Typescript", color: "#00C7B7" },
+            { name: "Appwrite", color: "#f34110ff" },
             { name: "Tailwindcss", color: "#38B2AC" },
-            { name: "Netlify", color: "#00C7B7" },
           ],
         },
         {
@@ -95,32 +94,7 @@ const workSlides = {
     },
     {
       images: [
-        {
-          title: "Netflix",
-          path: "/netflix.png",
-          liveUrl: "https://solarios777.github.io/Netflix-clone/",
-          githubUrl: "https://github.com/solarios777/Netflix-clone",
-          technologies: [
-            { name: "React", color: "#61DAFB" },
-            { name: "CSS", color: "#1572B6" },
-            { name: "GitHub Pages", color: "#00758F" },
-            { name: "Redux", color: "#764ABC" },
-          ],
-        },
-        {
-          title: "Amazon",
-          path: "/amazon.png",
-          liveUrl: "https://ariosfagos-solarios.netlify.app/",
-          githubUrl: "https://github.com/solarios777/amazon",
-          technologies: [
-            { name: "React", color: "#61DAFB" },
-            { name: "CSS", color: "#1572B6" },
-            { name: "Node.js", color: "#83CD29" },
-            { name: "Express", color: "#83CD29" },
-            { name: "Netlify", color: "#00C7B7" },
-          ],
-        },
-        {
+         {
           title: "Evangadi-Forum",
           path: "/evantu.jpeg",
           liveUrl: "https://evangadi-discussion-forum-g11.netlify.app/",
@@ -147,6 +121,32 @@ const workSlides = {
             { name: "Vercel", color: "#000000" },
           ],
         },
+        {
+          title: "Netflix",
+          path: "/netflix.png",
+          liveUrl: "https://solarios777.github.io/Netflix-clone/",
+          githubUrl: "https://github.com/solarios777/Netflix-clone",
+          technologies: [
+            { name: "React", color: "#61DAFB" },
+            { name: "CSS", color: "#1572B6" },
+            { name: "GitHub Pages", color: "#00758F" },
+            { name: "Redux", color: "#764ABC" },
+          ],
+        },
+        {
+          title: "Amazon",
+          path: "/amazon.png",
+          liveUrl: "https://ariosfagos-solarios.netlify.app/",
+          githubUrl: "https://github.com/solarios777/amazon",
+          technologies: [
+            { name: "React", color: "#61DAFB" },
+            { name: "CSS", color: "#1572B6" },
+            { name: "Node.js", color: "#83CD29" },
+            { name: "Express", color: "#83CD29" },
+            { name: "Netlify", color: "#00C7B7" },
+          ],
+        },
+       
       ],
     },
   ],
@@ -245,6 +245,12 @@ const WorkSlider = () => {
                             )}
                             {tech.name === "Redux" && (
                               <SiRedux size={16} color={tech.color} />
+                            )}
+                            {tech.name === "NextAuth" && (
+                              <SiNextauth size={16} color={tech.color} />
+                            )}
+                            {tech.name === "Appwrite" && (
+                              <SiAppwrite size={16} color={tech.color} />
                             )}
                           </div>
                         ))}

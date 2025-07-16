@@ -1,52 +1,40 @@
-import { RiLinkedinFill, RiGithubFill, RiWhatsappFill } from "react-icons/ri";
+// links
 import Link from "next/link";
 
-const Footer = () => {
+// icons
+import {RiLinkedinFill,RiGithubFill,RiWhatsappFill} from 'react-icons/ri'
+
+
+const Socials = () => {
   return (
-    <footer className="text-white py-4">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        {/* Solomon Sala */}
-        <div >
-          <h3 className="ml-4 md:ml-0 mb-0 md;mb-2">Solomon Sala</h3>
-          <p className="mb-2 md:mb-0">Full-Stack Developer</p>
-        </div>
+    <div className="flex items-center gap-x-5 text-lg ">
+      <Link
+        href={"/"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-accent transition-all duration-300 lg:text-2xl "
+      >
+        <RiLinkedinFill className="text-[#0A66C2]" />
+      </Link>
+      <Link
+        href="https://github.com/solarios777"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-accent transition-all duration-300 lg:text-2xl"
+      >
+        <RiGithubFill className="text-[#fff]" />
+      </Link>
 
-        {/* Addis Abeba, Ethiopia */}
-        <div>
-          <h3 className=" mb-2">Addis Abeba, Ethiopia</h3>
-        </div>
-
-        {/* gggee */}
-        <div className="flex items-center gap-x-5 text-lg ">
-          <Link
-            href={"/"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-accent transition-all duration-300  "
-          >
-            <RiLinkedinFill />
-          </Link>
-          <Link
-            href={"/"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-accent transition-all duration-300 "
-          >
-            <RiGithubFill />
-          </Link>
-
-          <Link
-            href={"/"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-accent transition-all duration-300 "
-          >
-            <RiWhatsappFill />
-          </Link>
-        </div>
-      </div>
-    </footer>
+      <Link
+        href="https://wa.me/251938838999"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-accent transition-all duration-300 lg:text-2xl"
+      >
+        <RiWhatsappFill className="text-[#25D366]" />
+      </Link>
+    </div>
   );
 };
 
-export default Footer;
+export default Socials;
