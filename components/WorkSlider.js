@@ -39,8 +39,21 @@ const workSlides = {
   slides: [
     {
       images: [
-         {
-          title: "School management system",
+        {
+          title: "Mashabesha Design E-commerce",
+          path: "/mashabesha.png",
+          liveUrl: "https://mashabesha-weld.vercel.app/",
+          githubUrl: "https://github.com/solarios777/MASHABESHA",
+          technologies: [
+            { name: "Next", color: "#61DAFB" },
+            { name: "Typescript", color: "#00C7B7" },
+            { name: "Postgresql", color: "#00758F" },
+            { name: "Tailwindcss", color: "#38B2AC" },
+            { name: "Prisma", color: "#00C7B7" },
+          ],
+        },
+        {
+          title: "School Management System",
           path: "/sms.png",
           liveUrl: "https://youtu.be/cRzugHv8glc",
           githubUrl: "https://github.com/solarios777/SMS",
@@ -50,7 +63,6 @@ const workSlides = {
             { name: "Postgresql", color: "#00758F" },
             { name: "Tailwindcss", color: "#38B2AC" },
             { name: "Prisma", color: "#00C7B7" },
-
           ],
         },
         {
@@ -78,6 +90,10 @@ const workSlides = {
             { name: "Netlify", color: "#00C7B7" },
           ],
         },
+      ],
+    },
+    {
+      images: [
         {
           title: "Netflix",
           path: "/netflix.png",
@@ -89,12 +105,8 @@ const workSlides = {
             { name: "GitHub Pages", color: "#00758F" },
             { name: "Redux", color: "#764ABC" },
           ],
-        }
-      ],
-    },
-    {
-      images: [
-         {
+        },
+        {
           title: "Evangadi-Forum",
           path: "/evantu.jpeg",
           liveUrl: "https://evangadi-discussion-forum-g11.netlify.app/",
@@ -121,18 +133,7 @@ const workSlides = {
             { name: "Vercel", color: "#000000" },
           ],
         },
-        {
-          title: "Netflix",
-          path: "/netflix.png",
-          liveUrl: "https://solarios777.github.io/Netflix-clone/",
-          githubUrl: "https://github.com/solarios777/Netflix-clone",
-          technologies: [
-            { name: "React", color: "#61DAFB" },
-            { name: "CSS", color: "#1572B6" },
-            { name: "GitHub Pages", color: "#00758F" },
-            { name: "Redux", color: "#764ABC" },
-          ],
-        },
+
         {
           title: "Amazon",
           path: "/amazon.png",
@@ -146,7 +147,6 @@ const workSlides = {
             { name: "Netlify", color: "#00C7B7" },
           ],
         },
-       
       ],
     },
   ],
@@ -186,7 +186,7 @@ const WorkSlider = () => {
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#421c3b] to-[#5e35d8] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
 
                       {/* title */}
-                      <div className="absolute top-4 left-4 text-white px-4 py-2 rounded-br-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                      <div className="absolute top-10 left-4 text-white px-4 py-2 rounded-br-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
                         {image.title}
                       </div>
 
