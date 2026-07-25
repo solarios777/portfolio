@@ -90,7 +90,7 @@ const Header = () => {
           </Link>
           <div className="flex items-center gap-x-5 text-lg fixed top-4 lg:top-6 right-4 lg:right-24 z-50 px-4 py-2 rounded-md z-40">
             <Link
-              href={"https://www.linkedin.com/in/solomon-sala-0536b53b6"}
+              href={"https://www.linkedin.com/in/solomon-sala-299524416/"}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-all duration-300 lg:text-2xl"
