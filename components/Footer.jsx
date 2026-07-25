@@ -19,7 +19,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex items-center gap-5 text-2xl">
           <Link
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/solomon-sala-299524416"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition-all duration-300 text-gray-400 hover:text-blue-500"
